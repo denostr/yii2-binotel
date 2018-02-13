@@ -1,0 +1,24 @@
+{
+    "name": "denostr/yii2-binotel",
+    "description": "Клиент API Binotel для Yii2",
+    "keywords": ["yii2", "extension", "binotel", "api"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Ostrovsky",
+            "email": "4deni.kiev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "denostr/binotel-api": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\binotel\\": "src"
+        }
+    }
+}

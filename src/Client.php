@@ -39,6 +39,8 @@ class Client extends BaseObject
                 $this->disableSSLChecks
             );
         }
+
+        return $this->client;
     }
 
     public function __get($property)

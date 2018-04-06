@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "denostr\\Binotel\\yii": "src"
+            "denostr\\Binotel\\yii\\": "src"
         }
     }
 }

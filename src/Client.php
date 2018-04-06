@@ -1,8 +1,9 @@
 <?php
 
-namespace yii\binotel;
+namespace denostr\Binotel\yii;
 
 use yii\base\BaseObject;
+use yii\base\InvalidConfigException;
 
 class Client extends BaseObject
 {
@@ -22,7 +23,7 @@ class Client extends BaseObject
 
     public function init()
     {
-        if (!class_exists('\\Binotel\\Client')) {
+        if (!class_exists('denostr\\Binotel\\yii\\Client')) {
             throw new InvalidConfigException('Binotel not found. Try to install it via composer require denostr/binotel-api');
         }
     }
@@ -30,7 +31,7 @@ class Client extends BaseObject
     public function getClient()
     {
         if ($this->client == null) {
-            $this->client = new \Binotel\Client(
+            $this->client = new \denostr\Binotel\Client(
                 $this->key,
                 $this->secret,
                 $this->apiHost,

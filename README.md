@@ -1,4 +1,8 @@
 # Binotel клиент для Yii2
+[![Latest Stable Version](https://poser.pugx.org/denostr/yii2-binotel/v/stable)](https://packagist.org/packages/denostr/yii2-binotel)
+[![Total Downloads](https://poser.pugx.org/denostr/yii2-binotel/downloads)](https://packagist.org/packages/denostr/yii2-binotel)
+[![Latest Unstable Version](https://poser.pugx.org/denostr/yii2-binotel/v/unstable)](https://packagist.org/packages/denostr/yii2-binotel)
+[![License](https://poser.pugx.org/denostr/yii2-binotel/license)](https://packagist.org/packages/denostr/yii2-binotel)
 
 ## Установка
 

@@ -46,6 +46,6 @@ class Client extends BaseObject
 
     public function __get($property)
     {
-        return call_user_func([$this->getClient(), '__get'], [$property]);
+        return call_user_func([$this->getClient(), '__get'], $property);
     }
 }

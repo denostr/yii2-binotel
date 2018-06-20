@@ -48,3 +48,5 @@ try {
     printf('Error (%d): %s' . PHP_EOL, $e->getCode(), $e->getMessage());
 }
 ```
+
+**Документацию можно найти по [ссылке](https://github.com/denostr/binotel-api)** 
